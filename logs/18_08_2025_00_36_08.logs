@@ -1,0 +1,1 @@
+2025-08-18 00:36:10,655  ERROR error occured in python script name [e:\student_2\src\utils.py] line number [73] error message [a bytes-like object is required, not '_io.BufferedReader']

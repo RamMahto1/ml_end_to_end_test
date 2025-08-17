@@ -1,0 +1,2 @@
+2025-08-17 15:58:13,079  INFO logging has started
+2025-08-17 15:58:13,079  ERROR error occured in python script name [E:\student_2\main.py] line number [12] error message [division by zero]

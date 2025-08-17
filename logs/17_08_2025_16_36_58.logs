@@ -1,0 +1,3 @@
+2025-08-17 16:37:03,483  INFO read data as data frame
+2025-08-17 16:37:03,500  INFO spliting the data into train test split
+2025-08-17 16:37:03,516  INFO Data ingestion has completed

@@ -1,0 +1,85 @@
+2025-08-18 00:18:25,433  INFO read data as data frame
+2025-08-18 00:18:25,443  INFO spliting the data into train test split
+2025-08-18 00:18:25,452  INFO Data ingestion has completed
+2025-08-18 00:18:25,452  INFO Data ingestion completed
+2025-08-18 00:18:25,482  INFO read the data as data frame
+2025-08-18 00:18:25,482  INFO obtaining preprocessor path obj
+2025-08-18 00:18:25,482  INFO numerical feature:['reading_score', 'writing_score']
+2025-08-18 00:18:25,482  INFO categorical feature:['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2025-08-18 00:18:25,483  INFO applying preprocessor path on training and testing data set
+2025-08-18 00:18:25,508  INFO train data shape: 
+(800, 8)
+2025-08-18 00:18:25,509  INFO test data shape: 
+(200, 8)
+2025-08-18 00:18:25,510  INFO train data null values: 
+gender                         0
+race_ethnicity                 0
+parental_level_of_education    0
+lunch                          0
+test_preparation_course        0
+math_score                     0
+reading_score                  0
+writing_score                  0
+dtype: int64
+2025-08-18 00:18:25,511  INFO test data null values: 
+gender                         0
+race_ethnicity                 0
+parental_level_of_education    0
+lunch                          0
+test_preparation_course        0
+math_score                     0
+reading_score                  0
+writing_score                  0
+dtype: int64
+2025-08-18 00:18:25,516  INFO train data duplicate values: 
+0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+795    False
+796    False
+797    False
+798    False
+799    False
+Length: 800, dtype: bool
+2025-08-18 00:18:25,518  INFO test data duplicate values: 
+0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+195    False
+196    False
+197    False
+198    False
+199    False
+Length: 200, dtype: bool
+2025-08-18 00:18:25,527  INFO train data information: 
+None
+2025-08-18 00:18:25,533  INFO test data information: 
+None
+2025-08-18 00:18:25,554  INFO train data statatics info: 
+       math_score  reading_score  writing_score
+count  800.000000     800.000000     800.000000
+mean    66.496250      69.555000      68.456250
+std     15.024302      14.461532      15.085342
+min      8.000000      24.000000      15.000000
+25%     57.000000      60.000000      58.000000
+50%     66.000000      70.000000      69.000000
+75%     77.000000      80.000000      79.000000
+max    100.000000     100.000000     100.000000
+2025-08-18 00:18:25,566  INFO test data statatics info: 
+       math_score  reading_score  writing_score
+count  200.000000       200.0000     200.000000
+mean    64.460000        67.6250      66.445000
+std     15.638453        15.0805      15.563679
+min      0.000000        17.0000      10.000000
+25%     55.000000        57.0000      56.000000
+50%     66.000000        70.0000      69.000000
+75%     76.000000        78.0000      77.000000
+max    100.000000        99.0000     100.000000
+2025-08-18 00:18:25,567  ERROR error occured in python script name [E:\student_2\src\components\data_validation.py] line number [43] error message ['NoneType' object has no attribute 'tb_frame']
+2025-08-18 00:18:25,567  ERROR error occured in python script name [E:\student_2\main.py] line number [23] error message [error occured in python script name [E:\student_2\src\components\data_validation.py] line number [43] error message ['NoneType' object has no attribute 'tb_frame']]

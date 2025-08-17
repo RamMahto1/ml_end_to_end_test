@@ -1,0 +1,5 @@
+2025-08-18 01:31:54,557  WARNING  * Debugger is active!
+2025-08-18 01:31:54,565  INFO  * Debugger PIN: 114-380-332
+2025-08-18 02:00:00,920  INFO 127.0.0.1 - - [18/Aug/2025 02:00:00] "GET / HTTP/1.1" 200 -
+2025-08-18 02:00:09,105  INFO 127.0.0.1 - - [18/Aug/2025 02:00:09] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:02:38,051  INFO  * Detected change in 'E:\\student_2\\app.py', reloading

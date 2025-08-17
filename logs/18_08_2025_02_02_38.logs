@@ -1,0 +1,12 @@
+2025-08-18 02:02:42,849  WARNING  * Debugger is active!
+2025-08-18 02:02:42,860  INFO  * Debugger PIN: 114-380-332
+2025-08-18 02:02:42,893  WARNING  * Debugger is active!
+2025-08-18 02:02:42,900  INFO  * Debugger PIN: 114-380-332
+2025-08-18 02:05:32,665  INFO 127.0.0.1 - - [18/Aug/2025 02:05:32] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:05:36,782  INFO 127.0.0.1 - - [18/Aug/2025 02:05:36] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:05:39,949  INFO 127.0.0.1 - - [18/Aug/2025 02:05:39] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-08-18 02:08:42,572  INFO 127.0.0.1 - - [18/Aug/2025 02:08:42] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-08-18 02:08:48,873  INFO 127.0.0.1 - - [18/Aug/2025 02:08:48] "GET / HTTP/1.1" 200 -
+2025-08-18 02:08:55,848  INFO 127.0.0.1 - - [18/Aug/2025 02:08:55] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:09:58,268  INFO  * Detected change in 'E:\\student_2\\app.py', reloading
+2025-08-18 02:09:58,692  INFO  * Detected change in 'E:\\student_2\\app.py', reloading
